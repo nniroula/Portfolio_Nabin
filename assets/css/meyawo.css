@@ -205,8 +205,8 @@ figure {
 }
 
 img {
-  vertical-align: middle;
-  border-style: none;
+    vertical-align: middle;
+  border-style: none; 
 }
 
 svg {
@@ -12177,8 +12177,11 @@ pre .code {
 }
 
 .about-img-holder .about-img {
-  width: 100%;
-  margin-bottom: 15px;
+  /* width: 100%; */
+    margin-bottom: 15px; 
+    width: 80%;
+    float: right;
+    /* padding-top: -20rem; */
 }
 
 .about-caption {

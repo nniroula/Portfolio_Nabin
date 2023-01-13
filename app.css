@@ -1,0 +1,31 @@
+.letter{
+    transition: color 2000ms;
+    font-size: xx-large;
+    font-weight: 900;
+}
+.Job{
+    /* background-image: 'img src="assets/imgs/man2.png" class="about-img" alt="Portfolio Pic" '; */
+    /* background-color: red; */
+    text-align: center;
+    max-width:fit-content;
+    float: left;
+    padding-top: -4rem;
+    font-style: oblique;
+    font-size: xx-large;
+}
+.HireDiv{
+    background-image: 'img src="assets/imgs/man2.png" class="about-img" alt="Portfolio Pic" ';
+    background-color: aqua;
+    /* height: 10rem; */
+    /* width: 100%; */
+    /* margin-bottom: 15px;  */
+    /* width: 4em; */
+}
+.profile-picture{
+    float: right;
+    /* padding-top: -5em; */
+    padding-top: -7em;
+    margin-left: 0;
+    filter: brightness(2) invert(0);
+
+}
