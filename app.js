@@ -6,21 +6,19 @@ function randomRGB(){
     return `rgb(${r}, ${g}, ${b})`;
 }
 
-//const h2 = document.querySelector('h2');
-//h2.style.color = 'red';
-//h2.style.color = randomRGB(); // move this down in setInterval
-
-// setInterval(function(){
-//     h2.style.color = randomRGB();
-// }, 500);
-
 const letters = document.querySelectorAll('.letter');
-// for(let letter of letters){
-//     letter.style.color = randomRGB();
-// }
 
 setInterval(function(){
     for(let letter of letters){
         letter.style.color = randomRGB();
+    }
+}, 1000)
+
+
+const introLetters = document.querySelectorAll('.inro');
+
+setInterval(function(){
+    for(let alphabet of introLetters){
+        alphabet.style.color = randomRGB();
     }
 }, 1000)
