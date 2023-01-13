@@ -7141,7 +7141,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #695aa6 !important;
+  /* background-color: #695aa6 !important; */
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -10824,7 +10824,9 @@ a.text-danger:hover, a.text-danger:focus {
 }
 
 .text-light {
-  color: #f8f9fa !important;
+  /* color: #f8f9fa !important; */
+  color: green !important;
+  font-size: xx-large;
 }
 
 a.text-light:hover, a.text-light:focus {
@@ -12087,6 +12089,7 @@ pre .code {
 }
 
 .header .header-content .header-title .up {
+  /* font-size: calc(30px + (60 - 30) * ((100vw - 300px) / (1300 - 300))); */
   font-size: calc(30px + (60 - 30) * ((100vw - 300px) / (1300 - 300)));
   font-weight: 500;
   color: #444;
@@ -12096,7 +12099,7 @@ pre .code {
 }
 
 .header .header-content .header-title .down {
-  font-size: calc(30px + (75 - 30) * ((100vw - 300px) / (1300 - 300)));
+  /* font-size: calc(30px + (75 - 30) * ((100vw - 300px) / (1300 - 300))); */
   margin-bottom: 0;
   position: relative;
   display: block;
@@ -12106,8 +12109,9 @@ pre .code {
   font-size: calc(10px + (22 - 10) * ((100vw - 300px) / (1300 - 300)));
   letter-spacing: calc(1px + (7 - 1) * ((100vw - 300px) / (1300 - 300)));
   opacity: .8;
-  margin-top: -10px;
-  margin-bottom: 20px;
+  /* margin-top: -10px; */
+  /* margin-bottom: 20px; */
+  margin-bottom: 1em;
 }
 
 .header .header-content .btn {

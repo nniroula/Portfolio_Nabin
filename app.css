@@ -31,3 +31,12 @@
     /* padding-top: -15em; */
 
 }
+.jobHiring{
+    /* color:gold; */
+    color: green;
+    text-align: center;
+    /* font-size: large; */
+    font-size: large;
+    float: right;
+    font-weight: 800;
+}
