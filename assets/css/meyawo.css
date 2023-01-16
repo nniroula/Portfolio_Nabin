@@ -9633,6 +9633,8 @@ button.bg-dark:focus {
   .mb-md-0,
   .my-md-0 {
     margin-bottom: 0 !important;
+    max-width: fit-content;
+    /* background-color: beige; */
   }
   .ml-md-0,
   .mx-md-0 {
@@ -10690,6 +10692,7 @@ button.bg-dark:focus {
 @media (min-width: 576px) {
   .text-sm-left {
     text-align: left !important;
+    margin-top: 4em;
   }
   .text-sm-right {
     text-align: right !important;
@@ -12035,17 +12038,24 @@ pre .code {
 }
 
 .about-img-holder {
-  min-width: 400px;
-  max-width: 400px;
-  margin-right: 20px;
+  /* min-width: 400px; */
+
+  /* min-width: 8%; */
+  /* max-width: 400px; */
+  max-width: fit-content;
+  /* margin-right: 20px; */
+  margin-right: 10%;
+  min-width: 40%;
 }
 
 .about-img-holder .about-img {
-  /* width: 100%; */
+    width: 100%; 
     margin-bottom: 15px; 
     width: 80%;
     float: right;
-    padding-top: 4rem;
+    padding-top: 4rem; 
+    display: flex;
+    /* margin-top:-17rem; */
 }
 
 .about-caption {

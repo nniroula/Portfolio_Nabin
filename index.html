@@ -25,24 +25,35 @@
                 <li class="item">
                     <a class="link" href="#home">Home</a>
                 </li>
+
                 <li class="item">
                     <a class="link" href="#about">About Me</a>
                 </li>
-                <li class="item">
-                    <a class="link" href="#portfolio">Portfolio</a>
-                </li>
-                <li class="item">
-                    <a class="link" href="#testmonial">Testmonial</a>
-                </li>
+
                 <li class="item">
                     <a class="link" href="#blog">Blog</a>
                 </li>
+
                 <li class="item">
                     <a class="link" href="#contact">Contact Me</a>
                 </li>
-                <!-- <li class="item ml-md-3">
-                    <a href="components.html" class="btn btn-primary">Components</a>
-                </li> -->
+
+                <li class="item">
+                    <a class="link" href="#education">Education</a>
+                </li>
+
+                <li class="item">
+                    <a class="link" href="#experience">Experience</a>
+                </li>
+
+                <li class="item">
+                    <!-- <a class="link" href="#portfolio">Portfolio</a> -->
+                    <a class="link" href="#portfolio">Projects</a>
+                </li>
+            
+                <li class="item">
+                    <a class="link" href="#skills">Skills</a>
+                </li>
             </ul>
             <a href="javascript:void(0)" id="nav-toggle" class="hamburger hamburger--elastic">
                 <div class="hamburger-box">
@@ -61,7 +72,8 @@
                 <span class="down">I am Nabin Niroula</span>
             </h1>
             <p class="header-subtitle">
-                <span class="inro"> Fullstack Software Developer</span>
+                <!-- <span class="inro"> Fullstack Software Developer</span> -->
+                <span class="inro"> Software Developer</span>
             </p>
             <!-- <button class="btn btn-primary">My Projects</button> -->
         </div>
@@ -69,12 +81,10 @@
 
     <!-- about section -->
     <section class="section pt-0" id="about">
-       <!-- <div class="aboutMeTitle"> <h2 class="section-title mb-3">About Me</h2> </div> -->
         <!-- container -->
         <div class="container text-center">
             <!-- about wrapper -->
             <div class="about">
-              
                 <div class="about-img-holder">
                     <!-- My addition -->
                     <div class="HireDiv">
@@ -84,24 +94,28 @@
                             <div class="letter">I</div>
                             <div class="letter">R</div>
                             <div class="letter">E</div>
-                            <!-- To add a space between words in html do the following -->
-                            &nbsp
+                            &nbsp     <!-- To add a space between words in html do the following -->
                             <div class="letter">M</div>
                             <div class="letter">E</div>  
-                            </span>   
+                            
+                            </span>  
+                            <span>
                             <img src="assets/imgs/man3.png" class="about-img" alt="Portfolio Pic">
+                        </span> 
                         </span>
+                  
                     </div>
+                    <!-- <img src="assets/imgs/man3.png" class="about-img" alt="Portfolio Pic"> -->
                 </div>
                 <div class="about-caption">
-                    <h2 class="section-title mb-3">About Me</h2>
+                    <h2 class="section-title mb-3"> About Me </h2>
                     <p>
                         I am a fullstack software developer and a technology enthusiast, whose parents never had an 
                         opportunity to attain school even for a single day in their entire life. I cannot forget days until
                         spring of 2017 that only electronic devices in my house were 24" TV that would run local channels,
                         and a simple cell phone. <br> 
 
-                        <!-- <span id="dots"> -->
+                   
 
                         <br> Once I bought my first ever computer in Spring 2017, my curiosity as to how it was programmed
                         deciphered too deep in me; the consequences of which triggered me to learn new technology
@@ -114,6 +128,7 @@
                         
                         <span id="dots">
 
+                        <br>
                         <br>
                         The first quarter of 2020 was spent on successfully accomplishing the GRE(Graduate Ready Exam) to apply
                         for graduate studies in Computer Science. Then in Spring of 2021, I also joinned an intensive 
@@ -133,13 +148,13 @@
                         
                         </span>
                         <span id="more"></span>
-                        <button onclick="myFunction()" id="myBtn"> Read less >> </button>                     
+                        <button onclick="myFunction()" id="myBtn"> Read less >> </button> 
                     </p>
                     <button class="btn-rounded btn btn-outline-primary mt-4">Link to my CV/Resume</button>
                 </div>
-            </div><!-- end of about wrapper -->
-        </div><!-- end of container -->
-    </section> <!-- end of about section -->
+            </div>
+        </div>
+    </section> 
 
     <!-- portfolio section -->
     <section class="section" id="portfolio">
@@ -148,8 +163,10 @@
             
             <!-- <h6 class="section-title mb-6">Portfolio</h6> -->
             <h6 class="section-title mb-6">Projects</h6>
+            <p class="ProjectCommand">Hover over each image to learn about the project.</p>
             <!-- row -->
             <div class="row">
+             
                 <div class="col-md-4">
                     <a href="#" class="portfolio-card">
                         <img class="portfolio-card-img" src="assets/imgs/folio-8.png" class="img-responsive rounded"
@@ -202,19 +219,19 @@
             </div><!-- end of row -->
         </div><!-- end of container -->
 <!--  -->
-        <div class="container text-center text-sm-left">
+        <!-- <div class="container text-center text-sm-left">
             <div class="row align-items-center">
                 <div class="col-sm offset-md-1 mb-4 mb-md-0">
                     <h6 class="title text-light">Looking for a developer?</h6>
-                    <p class="jobHiring">Just &nbsp =></p>
+                    <p class="jobHiring">Just &nbsp => &nbsp 
+                        <span class="HireDivInPortfolio">
+                            <span class="inro"> HIRE </span>
+                            <span class="inro"> NABIN</span>
+                        </span>
+                    </p>
                 </div>
-                <div class="col-sm offset-sm-2 offset-md-3">
-                    <div class="HireDivInPortfolio">
-                        <span class="inro"> HIRE ME</span>
-                    </div>
-                </div> 
             </div> 
-        </div> 
+        </div>  -->
 
     </section> <!-- end of portfolio section -->
 
@@ -222,37 +239,28 @@
         <div class="container text-center text-sm-left">
             <div class="row align-items-center">
                 <div class="col-sm offset-md-1 mb-4 mb-md-0">
-                    <h6 class="title text-light">Want to work together?</h6>
-                    <p class="jobHiring">Don't forget to &nbsp &nbsp =></p>
-                    
+                    <h6 class="title text-light">Education </h6>   
                 </div>
                  <div class="col-sm offset-sm-2 offset-md-3">
-                    <div class="HireDiv">
-                        <span>
-                            <span class="Job">
-                            <span class="letter">H</span>
-                            <span class="letter">I</span>
-                            <span class="letter">R</span>
-                            <span class="letter">E</span>
-                            &nbsp
-                            <span class="letter">M</span>
-                            <span class="letter">E</span>  
-                            </span>   
-                        </span>
-                    </div>
-
+                        <didv>
+                            MS, Computer Science 
+                                University of Colorado Denver Jan. 2021 - Dec. 2023
+                            BS, Mathematics and Computer Science Aug. 2016 - Dec. 2019
+                           Coding Bootcamp, Online
+                                SpringBoard Jan 21 - Dec 2022
+                        </div>
                 </div> 
             </div> 
         </div> 
     </section> -->
 
     <!-- blog section -->
-    <section class="section" id="blog">
-        <!-- container -->
+    <!-- <section class="section" id="blog">
+        ******* container ************
         <div class="container text-center">
             <p class="section-subtitle">Recent Posts?</p>
             <h6 class="section-title mb-6">Blog</h6>
-            <!-- blog-wrapper -->
+        ********** blog-wrapper ****************
             <div class="blog-card">
                 <div class="blog-card-header">
                     <img src="assets/imgs/img-1.jpg" class="blog-card-img"
@@ -260,7 +268,6 @@
                 </div>
                 <div class="blog-card-body">
                     <h5 class="blog-card-title">Consectetur adipisicing elit</h6>
-
                         <p class="blog-card-caption">
                             <a href="#">By: Admin</a>
                             <a href="#"><i class="ti-heart text-danger"></i> 234</a>
@@ -269,18 +276,16 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet nesciunt qui sit velit
                             delectus voluptates, repellat ipsum culpa id deleniti. Rerum debitis facilis accusantium
                             neque numquam mollitia modi quasi distinctio.</p>
-
                         <p><b>Necessitatibus nihil impedit! Ex nisi eveniet, dolor aliquid consequuntur repudiandae.</b>
                         </p>
                         <p>Magnam in repellat enim harum omnis aperiam! Explicabo illo, commodi, dolor blanditiis
                             cupiditate harum nisi vero accusamus laudantium voluptatibus dolores quae obcaecati.</p>
-
                         <a href="#" class="blog-card-link">Read more <i class="ti-angle-double-right"></i></a>
                 </div>
-            </div><!-- end of blog wrapper -->
+            </div>      end of blog wrapper -->
 
             <!-- blog-wrapper -->
-            <div class="blog-card">
+            <!-- <div class="blog-card">
                 <div class="blog-card-header">
                     <img src="assets/imgs/img-2.jpg" class="blog-card-img"
                         alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
@@ -296,42 +301,204 @@
 
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit excepturi laborum enim,
                             vitae ipsam atque eum, ad iusto consequuntur voluptas, esse doloribus. Perferendis porro
-                            quisquam vitae exercitationem aliquid, minus eos laborum repudiandae, cumque debitis iusto
-                            omnis praesentium? Laborum placeat sit adipisci illum tempore maxime, esse qui quae?
-                            Molestias excepturi corporis similique doloribus. Esse vitae earum architecto nulla non
-                            dolores illum at perspiciatis quod, et deleniti cupiditate reiciendis harum facere, delectus
-                            eum commodi soluta distinctio sit repudiandae possimus sunt. Ipsum, rem.</p>
+                            quisquam vitae exerci.</p>
 
                         <a href="#" class="blog-card-link">Read more <i class="ti-angle-double-right"></i></a>
                 </div>
-            </div><!-- end of blog wrapper -->
+            </div>    
+        </div>       
+    </section>     end of blog section -->
 
-        </div><!-- end of container -->
-    </section><!-- end of blog section -->
+
+    <!-- Education section -->
+
+    <section class="section pt-0" id="about">
+        <!-- container -->
+        <div class="container text-center">
+            <!-- about wrapper -->
+            <div class="about">
+                <div class="about-img-holder">
+                    <!-- My addition -->
+                    <!-- <div class="HireDiv"> -->
+
+    <!-- <section class="section pt-0" id="education"> -->
+        <section class="section pt-0" id="education">
+
+            <!-- container -->
+            <div class="container text-center">
+                <!-- about wrapper -->
+                <div class="about">
+                    <div class="about-img-holder">
+                        <!-- My addition -->
+                        <div class="EducationDiv">
+                            <span>
+                                <span class="Job">
+                                    <div class="educate">E</div>
+                                    <div class="educate">D</div>
+                                    <div class="educate">U</div>
+                                    <div class="educate">C</div>
+                                    <div class="educate">A</div>
+                                    <div class="educate">T</div>  
+                                    <div class="educate">I</div> 
+                                    <div class="educate">O</div>   
+                                    <div class="educate">N</div>  
+                                </span>   
+                                <!-- <img src="assets/imgs/folio-9.png" class="about-img" alt="Book Pic"> -->
+                            </span>
+                        </div>
+                    </div>
+                    <div class="about-caption">
+                    <!-- <div class="education-caption"> -->
+                        <h2 class="section-title mb-3"> <span class="educationTitle"> My Schooling </span></h2>
+                        <p>
+                           <b class="degree"> MS, Computer Science </b> 
+                           <p><span class="dates">Jan. 2021 - Dec. 2023</span></p>
+                            <br>
+                                <img src="assets/imgs/folio-cu.png" class="cu-img" alt="cu Pic">
+                            <br> 
+                          
+                            <!-- <span id="dots"> -->
+                            <span id="jobEducation">
+                            <br>
+                            <br>
+                            <b class="degree"> Software Engineering Certification </b>
+                            <p><span class="dates">Jan. 2021 - Dec. 2022</span></p>
+                         <br>
+                         <img src="assets/imgs/folio-sb.png" class="springboard-img" alt="cu Pic">
+                
+                            <br>
+                            <br>
+                           <b class="degree"> BS, Mathematics & Computer Science </b>
+                           <p><span class="dates">Aug. 2016 - Dec. 2019</span></p>
+                            <br>
+                            <img src="assets/imgs/folio-msu2.png" class="msu-img" alt="cu Pic">
+                   
+                         <br> 
+     
+                            </span>
+                            <span id="moreContent"></span>
+                            <br>
+                            <br>
+                            <div>
+                                <button onclick="myEducationFunction()" id="educationButton"> Read less >> </button>    
+                            </div>
+           
+                        </p>
+                        <button class="btn-rounded btn btn-outline-primary mt-4">Link to my CV/Resume</button>
+                    </div>
+                </div>
+            </div>
+        </section> 
+             
+    <!-- End of Education section -->
 
     <!-- contact section -->
     <section class="section" id="contact">
         <div class="container text-center">
             <h6 class="section-title mb-5">Contact Me</h6>
             <div>
+         
+
+    
                    <!-- target makes link open up in new window -->
-                <div> Phone:&nbsp <a href="tel:+1720-499-3220" target="_blank"> 720-499-3220 </a></div>
-                <div> Email:&nbsp <a href="mailto:nkbhaie2017@gmail.com" target="_blank"> nkbhaie2017@gmail.com </a></div>
-                <div>LinkedIn:&nbsp <a href="https://www.linkedin.com/in/nabin-niroula44/" target="_blank">https://www.linkedin.com/in/nabin-niroula44 </a></div>
+                <!-- <div> Phone:&nbsp <a href="tel:+1720-499-3220" target="_blank"> 720-499-3220 </a></div> -->
+                <div> 
+                    <img src="assets/imgs/folio-phone.png" class="phone-img" alt="phone Pic">&nbsp :&nbsp 
+                    <a href="tel:+1720-499-3220" target="_blank"> 720-499-3220 </a></div>
+
+                <!-- <div> Email:&nbsp <a href="mailto:nkbhaie2017@gmail.com" target="_blank"> nkbhaie2017@gmail.com </a></div> -->
+                <div> <img src="assets/imgs/folio-mail.png" class="phone-img" alt="phone Pic">&nbsp 
+                    :&nbsp <a href="mailto:nkbhaie2017@gmail.com" target="_blank"> nkbhaie2017@gmail.com </a></div>
+
+
+                <!-- <div>LinkedIn:&nbsp <a href="https://www.linkedin.com/in/nabin-niroula44/" target="_blank">https://www.linkedin.com/in/nabin-niroula44 </a></div> -->
+                <div> <img src="assets/imgs/folio-linkedIn.png" class="phone-img" alt="phone Pic">&nbsp 
+                    :&nbsp <a href="https://www.linkedin.com/in/nabin-niroula44/" target="_blank">https://www.linkedin.com/in/nabin-niroula44 </a></div>
             </div>
     
+        </div>
+    </section>
+
+
+
+    <!-- FOr EDUCAtion -->
+
+    <section class="section" id="portfolio">
+        <div class="container text-center">
+            <!-- <div class="overlay"></div> -->
+            
+            <!-- <h6 class="section-title mb-6">Portfolio</h6> -->
+            <h6 class="section-title mb-6">Education</h6>
+            <p class="ProjectCommand">Hover over each image to expore more.</p>
+            <!-- row -->
+            <div class="row">
+             
+                <div class="col-md-4">
+                    <a href="#" class="portfolio-card">
+                        <!-- <img src="assets/imgs/folio-cu.png" class="cu-img" alt="cu Pic"> -->
+                        <img class="portfolio-card-img" src="assets/imgs/cu3.png" class="img-responsive rounded"
+                            alt="cricket ground">
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <!-- <h4> MS, Computr Science</h4>
+                                <p class="font-weight-normal"> Jan. 2021 - Dec. 2023</p> -->
+                                <span class="eductionTet">
+                                Software Engineering, System Design, Cyber Security, Networking
+                                <p> C++, Python</p>
+                                At least 8 group projects
+                            </span>
+                             
+                            </span>
+                        </span>
+                    </a>
+                </div>
+
+                <div class="col-md-4">
+                    <a href="#" class="portfolio-card">
+                        <img class="portfolio-card-img" src="assets/imgs/sb2.png" class="img-responsive rounded"
+                            alt="restaurant finder web app landing page">
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <!-- <h4>Software Engineering Certification</h4>
+                                    <p class="font-weight-normal"> Jan. 2021 - Dec. 2022</p> -->
+                                    <!-- <p>Jan. 2021 - Dec. 2022</p> -->
+                                    <span class="eductionTet">
+                                   Fullstack Web Developement, Porgramming, Deployability
+                                    <p>OOP, JS, Python, SQL, PostgreSQL, DSA </p>
+                                    Two capstone projects
+                                    </span>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="#" class="portfolio-card">
+                        <img class="portfolio-card-img" src="assets/imgs/msu2.png" class="img-responsive rounded"
+                            alt="games link">
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <!-- <h4>BS, Mathematics and Computer Science</h4>
+                                <p class="font-weight-normal">Aug. 2016 - Dec. 2019</p> -->
+                                <span class="eductionTet">
+                                Application Developement, Porgramming, DSA, Functional Programming, Applied Maths
+                                <p>OOP, Java, Python, SQL, Elixir, Scala, C# </p>
+                                Two capstone group projects
+                                </span>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+            </div><!-- end of row -->
         </div><!-- end of container -->
-    </section><!-- end of contact section -->
+
+    <!-- Above is education -->
 
     <!-- footer -->
     <div class="container">
         <footer class="footer">
-            <!-- <p class="mb-0"> -->
-                nabin niroula - Fullstack Software Developer 
-            <!-- </p> -->
-       
+                nabin niroula - Fullstack Software Developer   
         </footer>
-    </div> <!-- end of page footer -->
+    </div>
 
     <!-- core  -->
     <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
@@ -345,7 +512,6 @@
 
     <!-- My addition -->
     <script src="app.js"></script>
-
 </body>
 
 </html>

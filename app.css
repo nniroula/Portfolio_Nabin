@@ -4,12 +4,6 @@
     font-weight: 900;
     font-size: calc(40px + (35 - 20) * ((100vw - 300px) / (1300 - 300)));
 }
-/* .flashing{
-    transition: color 2000ms;
-    font-size: x-large;
-    font-weight: 900;
-    font-size: calc(40px + (35 - 20) * ((100vw - 300px) / (1300 - 300)));
-} */
 
 .Job{
     text-align: center;
@@ -35,8 +29,10 @@
 
 .inro{
     transition: color 2000ms;
-    font-size: x-large;
-    font-weight: 500;
+    /* font-size: x-large;
+    font-weight: 500; */
+    font-size: xx-large;
+    font-weight: 600;
 }
 
 .footer{
@@ -46,10 +42,6 @@
     /* color:rgb(17, 176, 118) */
     color:chocolate
 }
-/* .aboutMeTitle{
-    text-align: center;
-    padding-bottom: 2em;
-} */
 
 #more {
     display: none;
@@ -58,23 +50,92 @@
     display: contents;
     color:green;
 }
-#portfolio{
-    /* background-color: rgb(181, 181, 210); */
-    background-color: rgba(197, 110, 110, 0.075);
-    /* border-collapse: collapse; */
-/* 
-    background-image: -webkit-linear-gradient(bottom, #fff 0%, rgba(105, 90, 166, 0.35) 99%, rgba(105, 90, 166, 0.5) 100%);
-    background-image: linear-gradient(to top, #fff 0%, rgba(105, 90, 166, 0.35) 99%, rgba(105, 90, 166, 0.5) 100%); */
-
-    background-image: -webkit-linear-gradient(top, #fff 0%, rgba(105, 90, 166, 0.35) 99%, rgba(105, 90, 166, 0.5) 100%);
-    background-image: linear-gradient(to bottom, #fff 0%, rgba(105, 90, 166, 0.35) 99%, rgba(105, 90, 166, 0.5) 100%);
-}
-.section-sm{
-
-    background-image: -webkit-linear-gradient(bottom, #fff 0%, rgba(105, 90, 166, 0.35) 99%, rgba(105, 90, 166, 0.5) 100%);
-    background-image: linear-gradient(to top, #fff 0%, rgba(105, 90, 166, 0.35) 99%, rgba(105, 90, 166, 0.5) 100%);
-}
-
 .HireDivInPortfolio{
     font-style: italic;
+    background-color: beige;
+    padding: 0.5em;
+}
+
+.ProjectCommand{
+    font-size: large;
+    color:blueviolet;
+    margin-bottom: 2em;
+    margin-top: -1em;
+}
+.educate{
+    color:coral;
+    font-size: smaller;
+}
+
+.EducationDiv{
+    text-align: left;
+}
+.education-caption{
+    text-align: left;
+}
+
+.cu-img{
+    margin-left: 5em;
+    margin-right: 5em;
+    /* min-height: 2em;
+    max-height: 4em;  */
+    min-height: 4em;
+    max-height: 6em;
+    /* width: 26em; */
+    width: 24em;
+    margin-top: -1rem;
+} 
+
+.msu-img{
+    /* margin-left: 5em;
+    min-height: 2em; */
+    max-height: 4em;
+    /* margin-right: 10.5rem;   */
+
+    min-height: 4em;
+    /* max-height: 6em; */
+    max-height: 8em;
+    margin-left: 5em;
+    width: 15em;
+}
+.springboard-img{
+    margin-left: 4em;
+    /* min-height: 2em;
+    max-height: 4em; */
+    margin-right: 3.5rem;
+    min-height: 4em;
+    /* max-height: 6em; */
+    max-height: 6em;
+}
+
+#educationButton{
+    display: contents;
+    color:green;
+}
+.educationTitle{
+    margin-bottom: 5%;
+}
+
+.phone-img{
+    /* margin-left: 5em; */
+    min-height: 1em;
+    max-height: 2em;
+    /* margin-right: 10.5rem;  */
+}
+.dates{
+    float:right;
+    /* margin-left: 10%; */
+    color:green;
+    font-weight: 600;
+    margin-right: 6em;
+    margin-top: -1rem;
+}
+.degree{
+    font-weight: 600;
+    font-size: x-large;
+}
+.eductionTet{
+    /* color:crimson; */
+    font-weight: 700;
+    color:chocolate;
 }
