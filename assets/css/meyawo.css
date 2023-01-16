@@ -11200,6 +11200,7 @@ p {
 
 .portfolio-card .portfolio-card-img {
   width: 100%;
+  height: 15em;
 }
 
 .portfolio-card .portfolio-card-overlay {

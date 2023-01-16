@@ -75,37 +75,34 @@
 }
 
 .cu-img{
-    margin-left: 5em;
+    /* margin-left: 5em;
     margin-right: 5em;
-    /* min-height: 2em;
-    max-height: 4em;  */
     min-height: 4em;
     max-height: 6em;
-    /* width: 26em; */
     width: 24em;
-    margin-top: -1rem;
+    margin-top: -1rem; */
 } 
 
 .msu-img{
     /* margin-left: 5em;
     min-height: 2em; */
-    max-height: 4em;
+    /* max-height: 4em; */
     /* margin-right: 10.5rem;   */
 
-    min-height: 4em;
+    /* min-height: 4em; */
     /* max-height: 6em; */
-    max-height: 8em;
+    /* max-height: 8em;
     margin-left: 5em;
-    width: 15em;
+    width: 15em; */
 }
 .springboard-img{
-    margin-left: 4em;
+    /* margin-left: 4em; */
     /* min-height: 2em;
     max-height: 4em; */
-    margin-right: 3.5rem;
-    min-height: 4em;
+    /* margin-right: 3.5rem;
+    min-height: 4em; */
     /* max-height: 6em; */
-    max-height: 6em;
+    /* max-height: 6em; */
 }
 
 #educationButton{
@@ -134,9 +131,12 @@
     font-weight: 600;
     font-size: x-large;
 }
-.eductionTet{
+.eductionText{
     /* color:crimson; */
     font-weight: 700;
     color:chocolate;
     background-color:gold
+}
+.portfolio-card-img .hover{
+    background-color: red;
 }
