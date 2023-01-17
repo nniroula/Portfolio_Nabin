@@ -60,7 +60,7 @@
     font-size: large;
     color:blueviolet;
     margin-bottom: 2em;
-    margin-top: -1em;
+    margin-top: -3.5em;
 }
 .educate{
     color:coral;
@@ -76,16 +76,16 @@
 
 .cu-img{
     /* margin-left: 5em; */
-    margin-left: 6em;
-    margin-right: 5em;
+    /* margin-left: 6em;
+    margin-right: 5em; */
     /* min-height: 4em; */
     /* max-height: 6em; */
-    width: 24em;
+    /* width: 24em; */
     /* margin-top: -2rem;  */
-    margin-top: -3rem; 
+    /* margin-top: -3rem; 
     padding-top: 1em;
     max-height: 5.5em;
-    width: 46%;
+    width: 46%; */
 } 
 
 .msu-img{
@@ -129,21 +129,15 @@
     margin-left:35%;
     color:green;
     font-weight: 600;
-    /* margin-right: 6em; */
     margin-right: 4em;
-    /* margin-top: -3rem; */
-    /* padding-top: 10em;*/
 } 
 .degree{
     font-weight: 600;
     font-size: x-large;
-    /* margin-bottom: -5em; */
-    /* margin-bottom: -11rem; */
     padding-bottom: 11em;
     padding-top: -10%;
 }
 .eductionText{
-    /* color:crimson; */
     font-weight: 700;
     color:chocolate;
     background-color:gold
@@ -151,11 +145,26 @@
 .portfolio-card-img .hover{
     background-color: red;
 }
- /* #ms{
-    padding-top: 8rem;
-}  */
-
-p{
-    margin-top: -1rem;
-    
+.skills{
+    text-align: left;
+    margin-bottom: 2rem;
 }
+
+.concepts{
+    color: brown;
+    font-size: larger;
+    font-weight: 500;
+}
+.technicalSkill{
+    color: green;
+    font-size: x-large;
+    font-weight: 700;
+    margin-top: -9em;
+}
+.laguages{
+    margin-left: 5em;
+}
+.listItems{
+    display: contents;
+}
+
