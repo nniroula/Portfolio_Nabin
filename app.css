@@ -194,3 +194,6 @@
     font-size: medium;
     font-weight: 600;
 }
+#aboutButton{
+    border-radius: 20px;
+}
