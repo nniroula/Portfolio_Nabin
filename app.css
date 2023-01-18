@@ -1,8 +1,10 @@
 .letter{
     transition: color 2000ms;
-    font-size: xx-large;
+    /* font-size: xx-large; */
+    font-size: x-large;
     font-weight: 900;
-    font-size: calc(40px + (35 - 20) * ((100vw - 300px) / (1300 - 300)));
+    /* font-size: calc(40px + (35 - 20) * ((100vw - 300px) / (1300 - 300))); */
+    font-size: calc(30px + (35 - 20) * ((100vw - 300px) / (1300 - 300)));
 }
 
 .Job{
@@ -186,4 +188,9 @@
 } */
 .gitHub{
     display: flex;
+}
+.resume{
+    color:aqua;
+    font-size: medium;
+    font-weight: 600;
 }
