@@ -162,9 +162,11 @@ sup {
 }
 
 a {
-  color: #695aa6;
+  /* color: #695aa6; */
   text-decoration: none;
   background-color: transparent;
+  font-weight: 300;
+  color:rgb(38, 0, 255);
 }
 
 a:hover {
@@ -12045,7 +12047,8 @@ pre .code {
   /* max-width: 400px; */
   max-width: fit-content;
   /* margin-right: 20px; */
-  margin-right: 10%;
+  /* margin-right: 10%; */
+  margin-right: 3%;
   min-width: 40%;
 }
 

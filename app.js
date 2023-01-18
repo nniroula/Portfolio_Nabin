@@ -25,8 +25,8 @@ setInterval(function(){
 
 
 // Read more, read less
+/*
 function myFunction() {
-    // evt.preventDefault();
     var dots = document.getElementById("dots");
     var moreText = document.getElementById("more");
     var btnText = document.getElementById("myBtn");
@@ -34,24 +34,42 @@ function myFunction() {
     if (dots.style.display === "none") {
       dots.style.display = "inline";
       btnText.innerHTML = "Read less >>";
-    //   btnText.innerHTML = "Read more >>";
       moreText.style.display = "none";
     } else {
       dots.style.display = "none";
-    //   btnText.innerHTML = "Read less >>";
         btnText.innerHTML = "Read more >>";
       moreText.style.display = "inline";
     }
   }
+*/
+
+
+function myFunction() {
+    var dots = document.getElementById("dots");
+    var moreText = document.getElementById("more");
+    var btnText = document.getElementById("myBtn");
+
+    if (dots.style.display === "none") {
+        dots.style.display = "inline"; // this will show the content
+        btnText.innerHTML = "Read less >>"; // change the button text
+    } else {
+        btnText.innerHTML = "Read more >>"; // change the button text
+        moreText.style.display = "inline"; // display the content
+        dots.style.display = "none"; // hide the element
+    }
+  }
+
+
+
 
 //   jobEducation    educationButton    
 
 // Education Read less or more
 function myEducationFunction() {
     // evt.preventDefault();
-    var dots = document.getElementById("jobEducation");
-    var moreContent = document.getElementById("moreContent");
-    var button = document.getElementById("educationButton");
+    let dots = document.getElementById("jobEducation");
+    let moreContent = document.getElementById("moreContent");
+    let button = document.getElementById("educationButton");
   
     if (dots.style.display === "none") {
       dots.style.display = "inline";
@@ -63,5 +81,25 @@ function myEducationFunction() {
     //   btnText.innerHTML = "Read less >>";
         button.innerHTML = "Read more >>";
         moreContent.style.display = "inline";
+    }
+  }
+
+//   experience show and hide
+function myExperienceFunction() {
+    // var dots = document.getElementById("dots");
+    // var moreText = document.getElementById("more");
+    // var btnText = document.getElementById("myBtn");
+    let exps = document.getElementById("exps");
+    let moreText = document.getElementById("moreExps");
+    let btnText = document.getElementById("expBtn");
+  
+    if (exps.style.display === "none") {
+        exps.style.display = "inline";
+        btnText.innerHTML = "Read less >>";
+        moreText.style.display = "none";
+    } else {
+        exps.style.display = "none";
+        btnText.innerHTML = "Read more >>";
+        moreText.style.display = "inline";
     }
   }

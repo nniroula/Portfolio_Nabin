@@ -147,19 +147,22 @@
 }
 .skills{
     text-align: left;
-    margin-bottom: 2rem;
+    /* margin-bottom: 2rem; */
+    margin-top: -2em;
 }
 
 .concepts{
-    color: brown;
-    font-size: larger;
+    color: blueviolet;
+    font-size:medium;
     font-weight: 500;
 }
 .technicalSkill{
     color: green;
-    font-size: x-large;
-    font-weight: 700;
     margin-top: -9em;
+    font-size: large;
+    font-weight: 600;
+  
+    width: 10em;
 }
 .laguages{
     /* margin-left: 5em; */
@@ -168,3 +171,19 @@
     display: contents;
 }
 
+.experienceDates{
+    /* color:hotpink */
+    color:coral;
+
+    /* padding-left: 10%; */
+}
+#expBtn{
+    display: contents;
+    color:green;
+}
+/* #dots{
+    display: none;
+} */
+.gitHub{
+    display: flex;
+}
