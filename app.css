@@ -1,12 +1,9 @@
 .letter{
     transition: color 2000ms;
-    /* font-size: xx-large; */
     font-size: x-large;
     font-weight: 900;
-    /* font-size: calc(40px + (35 - 20) * ((100vw - 300px) / (1300 - 300))); */
     font-size: calc(30px + (35 - 20) * ((100vw - 300px) / (1300 - 300)));
 }
-
 .Job{
     text-align: center;
     max-width:fit-content;
@@ -28,23 +25,17 @@
     float: right;
     font-weight: 800;
 }
-
 .inro{
     transition: color 2000ms;
-    /* font-size: x-large;
-    font-weight: 500; */
     font-size: xx-large;
     font-weight: 600;
 }
-
 .footer{
     text-align: center;
     display: flow-root;
     padding-top: 1em;
-    /* color:rgb(17, 176, 118) */
     color:chocolate
 }
-
 #more {
     display: none;
 }
@@ -57,7 +48,6 @@
     background-color: beige;
     padding: 0.5em;
 }
-
 .ProjectCommand{
     font-size: large;
     color:blueviolet;
@@ -68,50 +58,12 @@
     color:coral;
     font-size: smaller;
 }
-
 .EducationDiv{
     text-align: left;
 }
 .education-caption{
     text-align: left;
 }
-
-.cu-img{
-    /* margin-left: 5em; */
-    /* margin-left: 6em;
-    margin-right: 5em; */
-    /* min-height: 4em; */
-    /* max-height: 6em; */
-    /* width: 24em; */
-    /* margin-top: -2rem;  */
-    /* margin-top: -3rem; 
-    padding-top: 1em;
-    max-height: 5.5em;
-    width: 46%; */
-} 
-
-.msu-img{
-    /* margin-left: 5em;
-    min-height: 2em; */
-    /* max-height: 4em; */
-    /* margin-right: 10.5rem;   */
-
-    /* min-height: 4em; */
-    /* max-height: 6em; */
-    /* max-height: 8em;
-    margin-left: 5em;
-    width: 15em; */
-}
-.springboard-img{
-    /* margin-left: 4em; */
-    /* min-height: 2em;
-    max-height: 4em; */
-    /* margin-right: 3.5rem;
-    min-height: 4em; */
-    /* max-height: 6em; */
-    /* max-height: 6em; */
-}
-
 #educationButton{
     display: contents;
     color:green;
@@ -119,15 +71,11 @@
 .educationTitle{
     margin-bottom: 5%;
 }
-
 .phone-img{
-    /* margin-left: 5em; */
     min-height: 1em;
     max-height: 2em;
-    /* margin-right: 10.5rem;  */
 }
 .dates{
-    /* float:right; */
     margin-left:35%;
     color:green;
     font-weight: 600;
@@ -149,10 +97,8 @@
 }
 .skills{
     text-align: left;
-    /* margin-bottom: 2rem; */
     margin-top: -2em;
 }
-
 .concepts{
     color: blueviolet;
     font-size:medium;
@@ -166,26 +112,16 @@
   
     width: 10em;
 }
-.laguages{
-    /* margin-left: 5em; */
-}
 .listItems{
     display: contents;
 }
-
 .experienceDates{
-    /* color:hotpink */
     color:coral;
-
-    /* padding-left: 10%; */
 }
 #expBtn{
     display: contents;
     color:green;
 }
-/* #dots{
-    display: none;
-} */
 .gitHub{
     display: flex;
 }
@@ -196,4 +132,8 @@
 }
 #aboutButton{
     border-radius: 20px;
+}
+.linksToExplore{
+    margin-top: 0.5em;
+    font-size: larger;
 }
