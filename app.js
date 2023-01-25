@@ -25,25 +25,6 @@ setInterval(function(){
 
 
 // Read more, read less
-/*
-function myFunction() {
-    var dots = document.getElementById("dots");
-    var moreText = document.getElementById("more");
-    var btnText = document.getElementById("myBtn");
-  
-    if (dots.style.display === "none") {
-      dots.style.display = "inline";
-      btnText.innerHTML = "Read less >>";
-      moreText.style.display = "none";
-    } else {
-      dots.style.display = "none";
-        btnText.innerHTML = "Read more >>";
-      moreText.style.display = "inline";
-    }
-  }
-*/
-
-
 function myFunction() {
     var dots = document.getElementById("dots");
     var moreText = document.getElementById("more");
@@ -57,16 +38,10 @@ function myFunction() {
         moreText.style.display = "inline"; // display the content
         dots.style.display = "none"; // hide the element
     }
-  }
-
-
-
-
-//   jobEducation    educationButton    
+  } 
 
 // Education Read less or more
 function myEducationFunction() {
-    // evt.preventDefault();
     let dots = document.getElementById("jobEducation");
     let moreContent = document.getElementById("moreContent");
     let button = document.getElementById("educationButton");
@@ -74,11 +49,9 @@ function myEducationFunction() {
     if (dots.style.display === "none") {
       dots.style.display = "inline";
       button.innerHTML = "Read less >>";
-    //   btnText.innerHTML = "Read more >>";
         moreContent.style.display = "none";
     } else {
       dots.style.display = "none";
-    //   btnText.innerHTML = "Read less >>";
         button.innerHTML = "Read more >>";
         moreContent.style.display = "inline";
     }
@@ -86,9 +59,6 @@ function myEducationFunction() {
 
 //   experience show and hide
 function myExperienceFunction() {
-    // var dots = document.getElementById("dots");
-    // var moreText = document.getElementById("more");
-    // var btnText = document.getElementById("myBtn");
     let exps = document.getElementById("exps");
     let moreText = document.getElementById("moreExps");
     let btnText = document.getElementById("expBtn");
